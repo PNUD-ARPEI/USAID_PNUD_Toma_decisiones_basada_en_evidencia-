@@ -9,6 +9,8 @@ Este repositorio contiene  los códigos y ejercicios que se realizan en el marco
  
 <img width="988" alt="Captura de Pantalla 2022-12-26 a la(s) 5 51 21 p m" src="https://user-images.githubusercontent.com/73482880/209587265-fc9c2361-14a6-4466-aa16-e95b5bfc94dd.png">
 
+Una vez instalado R y R studio continue con el paso 2 "Primeros pasos en R"
+
  # 2. Primeros pasos en R
  
  
