@@ -5,7 +5,8 @@ Este repositorio contiene  los códigos y ejercicios que se realizan en el marco
  
  Para poder instalar R y R studio en su computador, dirijase al archivo "Instructivo Instalación R y R Studio.pdf" ( el cual se encuentra colgado en el banner del repositorio).  
  
- 
+ <img width="698" alt="Captura de Pantalla 2022-12-26 a la(s) 5 48 16 p m" src="https://user-images.githubusercontent.com/73482880/209587182-60b1d575-c44f-4e4f-9ebd-d14cef120389.png">
+
  
  # Analítica de datos
 
