@@ -7,6 +7,8 @@ Este repositorio contiene  los códigos y ejercicios que se realizan en el marco
  
  <img width="698" alt="Captura de Pantalla 2022-12-26 a la(s) 5 48 16 p m" src="https://user-images.githubusercontent.com/73482880/209587182-60b1d575-c44f-4e4f-9ebd-d14cef120389.png">
  
+ Al abrir este instructuvo, encontrará el paso a paso de como instalar  R y R Studio en un sistema operativo windows.
+ 
 <img width="988" alt="Captura de Pantalla 2022-12-26 a la(s) 5 51 21 p m" src="https://user-images.githubusercontent.com/73482880/209587265-fc9c2361-14a6-4466-aa16-e95b5bfc94dd.png">
 
 Una vez instalado R y R studio continue con el paso 2 "Primeros pasos en R"
