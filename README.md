@@ -14,7 +14,12 @@ Este repositorio contiene  los códigos y ejercicios que se realizan en el marco
 Una vez instalado R y R studio continue con el paso 2 "Primeros pasos en R"
 
  # 2. Primeros pasos en R
- Una vez haya instalado y verificado que el programa  corre, deberá instalar los paquetes y librerias básicas  de R para poder explorar sus diferentes funcionalidades. Es importante que sepa que existen diferentes metodos para instalar paquetes en R, en el presente instructivo se muestra la forma más sencilla e intuitiva de hacerla, no obstante la redacción de un código dependerá del nivel y sofisiticación que cada programador le de a este.
+ 
+Una vez haya instalado y verificado que el programa  corre, deberá instalar los paquetes y librerias básicas  de R para poder explorar sus diferentes funcionalidades. Para familiarizarse con la interface del programa le recomendamos ver el siguiente video: https://www.youtube.com/watch?v=skPzCkvr8Cw
+
+
+
+Es importante que sepa que existen diferentes metodos para instalar paquetes en R, en el presente instructivo se muestra la forma más sencilla e intuitiva de hacerla, no obstante la redacción de un código dependerá del nivel y sofisiticación que cada programador le de a este.
 
  Para instalar paquetes debe asegurarse de introducir el siguiente comando: 
 ```ruby
@@ -27,30 +32,20 @@ install.packages("tidyverse") # tidyverse y dplyr son dos de los paquetes que ma
 install.packages("dplyr")
 library(tidyverse)
 library(dplyr)
-library(ggplot2) # Esta libreria le permitirá hacer  gráficas
+library(ggplot2) # Esta libreria le permitirá hacer gráficas
 library("readxl") # Permite leer documentos Excel
-library(scales)
-library(gganimate)
-library("readxl")
-library(sf)
-library(raster)
-library(dplyr)
-library(spData)
-library(spDataLarge)
+library(tmap) # Permite hacer mapas estáticos e interactivos 
+library(scales) # Permite introducir escala a mapas
+library(gganimate) # Permite generar gráficas dinámicas
+library(sf)# Permite integrar vectores espaciales 
+library(raster)# Permite analizar y manipular datos espaciales
+library(spData) # Integra datos espaciales de diferentes formatos 
+library(spDataLarge) # Integra datos espaciales de diferentes formatos 
 library(tmap)    # for static and interactive maps
 library(leaflet) # for interactive maps
-library(ggplot2)
-require(maps)
-require(viridis)
-library(rio)
-library(openxlsx)
-install_formats()
-library(ggrepel)
-library(gganimate)
-install.packages("colourpicker")
-library(colourpicker)
-library(tidyverse) 
  ```
+ 
+Los anteriores son paquetes básicos que se utilizarán adelante, no obstante R cuenta con un gran número de paquetes, de los cuales puede aprender en el siguiente link:  https://cran.r-project.org
  
  # Analítica de datos
 
