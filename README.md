@@ -20,7 +20,37 @@ Una vez instalado R y R studio continue con el paso 2 "Primeros pasos en R"
 ```ruby
 install.packages 
  ```
- Este le permitirá descargar e instalar archivos de repositorios en línea
+ Este le permitirá descargar e instalar archivos de repositorios en línea. Seguido a esto se deben instalar los siguientes paquetes con sus respectivas  liberias:
+ 
+```ruby
+install.packages("tidyverse") # tidyverse y dplyr son dos de los paquetes que mayor número de acciones permiten en R, se recomienda siempre instalarlos 
+install.packages("dplyr")
+library(tidyverse)
+library(dplyr)
+library(ggplot2) # Esta libreria le permitirá hacer  gráficas
+library("readxl") # Permite leer documentos Excel
+library(scales)
+library(gganimate)
+library("readxl")
+library(sf)
+library(raster)
+library(dplyr)
+library(spData)
+library(spDataLarge)
+library(tmap)    # for static and interactive maps
+library(leaflet) # for interactive maps
+library(ggplot2)
+require(maps)
+require(viridis)
+library(rio)
+library(openxlsx)
+install_formats()
+library(ggrepel)
+library(gganimate)
+install.packages("colourpicker")
+library(colourpicker)
+library(tidyverse) 
+ ```
  
  # Analítica de datos
 
