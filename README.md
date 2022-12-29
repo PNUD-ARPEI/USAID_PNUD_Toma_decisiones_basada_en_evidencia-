@@ -14,7 +14,13 @@ Este repositorio contiene  los códigos y ejercicios que se realizan en el marco
 Una vez instalado R y R studio continue con el paso 2 "Primeros pasos en R"
 
  # 2. Primeros pasos en R
- 
+ Una vez haya instalado y verificado que el programa  corre, deberá instalar los paquetes y librerias básicas  de R para poder explorar sus diferentes funcionalidades. Es importante que sepa que existen diferentes metodos para instalar paquetes en R, en el presente instructivo se muestra la forma más sencilla e intuitiva de hacerla, no obstante la redacción de un código dependerá del nivel y sofisiticación que cada programador le de a este.
+
+
+ Primer paquete a instalar: 
+ install.packages 
+install.packages("tidyverse")
+library(tidyverse)
  
  # Analítica de datos
 
